@@ -31,8 +31,8 @@ $(document).ready(function(e) {
 	//Mouseenter Overlay
 	$('ul#gallery li').on('mouseenter', function(){
 		//Get data attribute values
-		var title = $(this).data('title');
-		var desc = $(this).data('desc');
+		var title = $(this).children().data('title');
+		var desc = $(this).children().data('desc');
 		
 		//Validation
 		if(desc == null){
