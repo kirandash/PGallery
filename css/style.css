@@ -105,3 +105,20 @@ footer {
 	color: #fff;
 	padding-top: 10px;
 }
+
+.overlay {
+	display: none;
+	background: #03899c url('../images/overlay.png') no-repeat top center;
+	background-size: cover;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	pointer-events: none;
+}
